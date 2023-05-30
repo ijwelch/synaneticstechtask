@@ -20,6 +20,7 @@ In the terminal, try the following commands:
 
 -   **api**: API Gateway services
 -   **wordcount**: Rest API service with the `api/wordcount/at_url` endpoint.
+-   **webinspector**: HTTP client service providing `getwordcount` action.
 
 ## NPM scripts
 
@@ -31,3 +32,7 @@ In the terminal, try the following commands:
 -   `npm test`: Run tests & generate coverage report
 -   `npm run dc:up`: Start the stack with Docker Compose
 -   `npm run dc:down`: Stop the stack with Docker Compose
+
+## Docker
+
+-   `docker-compose up -d`: Builds and runs the Docker images and starts the containers
